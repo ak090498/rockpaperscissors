@@ -1,2 +1,2 @@
-# javascript2022
-for my own learning
+# rock paper scissors
+classic game of rock paper scissors vs randomized number generated as AI
