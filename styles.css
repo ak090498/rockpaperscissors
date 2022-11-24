@@ -1,9 +1,10 @@
-#rock{
-    align-content: center;
-}
-#paper{
-    text-align: center;
-}
-#scissors{
-    text-align: center;
+
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
 }
