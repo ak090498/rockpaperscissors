@@ -8,3 +8,15 @@
     left: 100px;
 
 }
+#rock{
+    width: 200px;
+    height: 200px;
+}
+#paper{
+    width:200px;
+    height: 200px;
+}
+#scissors{
+    width: 200px;
+    height: 200px;
+}
