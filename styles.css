@@ -38,3 +38,9 @@
     top:20px;
     color:coral;
 }
+#you-chose-what{
+    text-align: center;
+    position: relative;
+    top:20px;
+    left: -160px;
+}

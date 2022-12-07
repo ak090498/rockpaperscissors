@@ -6,19 +6,60 @@ let computer = 0;
 
 if(rock.addEventListener("click",()=>{
     player = 0;
-    gamePlay(player,computerPlays());
+    let computer = computerPlays();
+    gamePlay(player,computer);
+    choseWhat(player,computer);
 }));
 
 else if(paper.addEventListener("click",()=>{
     player =1;
-    gamePlay(player,computerPlays());
+    let computer = computerPlays();
+    gamePlay(player,computer);
+    choseWhat(player,computer);
 }));
 
 else if(scissors.addEventListener("click",()=>{
     player = 2;
-    gamePlay(player,computerPlays());   
+    let computer = computerPlays();
+    gamePlay(player,computer);
+    choseWhat(player,computer);
 }));
 
+const choseWhat = (player,computerPlays)=>{
+    if(player === 0)
+     {
+        let extraString = "You chose rock";
+        document.getElementById('youChoseWhat').textContent = extraString;
+     }
+     if(computerPlays === 0)
+     {
+        let extraString = "Computer chose rock";
+        document.getElementById('computerChoseWhat').textContent = extraString;
+
+     }
+     if(player === 1)
+     {
+        let extraString = "You chose paper";
+        document.getElementById('youChoseWhat').textContent = extraString;
+     }
+     if(computerPlays === 1)
+     {
+        let extraString = "Computer chose paper";
+        document.getElementById('computerChoseWhat').textContent = extraString;
+
+     }
+     if(player === 2)
+     {
+        let extraString = "You chose scissors";
+        document.getElementById('youChoseWhat').textContent = extraString;
+     }
+     if(computerPlays === 2)
+     {
+        let extraString = "Computer chose scissors";
+        document.getElementById('computerChoseWhat').textContent = extraString;
+
+     }
+}
 
 const computerPlays =()=>{
     let computer =  (Math.floor(Math.random()*(9999))+9999)%3;
