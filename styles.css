@@ -7,6 +7,7 @@
     top:50px;
     position: relative;
     border-style: solid;
+    visibility: visible;
 
 }
 #rock{
@@ -38,9 +39,34 @@
     top:20px;
     color:coral;
 }
-#you-chose-what{
+#youChoseWhat{
     text-align: center;
     position: relative;
     top:20px;
-    left: -160px;
+    left: 5px;
+}
+#computerChoseWhat{
+    text-align: center;
+    position: relative;
+    top:20px;
+    left: 5px;
+}
+.layer{
+    margin: auto;
+    width:700px;
+    height: 300px;
+    padding: 60px;
+    top:-370px;
+    position: relative;
+    border-style: solid;
+    visibility: hidden;
+
+}
+#play{
+    align-items: center;
+    position: relative;
+    left:280px;
+    top:120px;
+    height:40px;
+    width: 100px;
 }
