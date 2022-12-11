@@ -70,3 +70,65 @@
     height:40px;
     width: 100px;
 }
+@media (max-width:500px){
+    .container{
+        margin: auto;
+        width:300px;
+        height: 200px;
+        padding: 20px;
+        top:20px;
+        position: relative;
+        border-style: solid;
+        visibility: visible;
+    
+    }
+    #rock{
+        width: 50px;
+        height: 50px;
+    }
+    #paper{
+        width:50px;
+        height: 50px;
+    }
+    #scissors{
+        width: 50px;
+        height: 50px;
+    }
+    .layer{
+        margin: auto;
+        width:300px;
+        height: 200px;
+        padding: 20px;
+        top:-370px;
+        position: relative;
+        border-style: solid;
+        visibility: hidden;
+    
+    }
+    #play{
+        align-items: center;
+        position: relative;
+        left:100px;
+        top:120px;
+        height:40px;
+        width: 100px;
+    }
+    #heading{
+        font-size: larger;
+    }
+    #heading-part{
+        font-size: larger;
+    }
+    #you{
+        font-size: medium;
+    }
+    #computer{
+        font-size: medium;
+    }
+    #youChoseWhat{
+        font-size: medium;
+    }
+    #computerChoseWhat{
+        font-size: medium;
+    }
+}
