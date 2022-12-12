@@ -10,6 +10,9 @@
     visibility: visible;
 
 }
+#copy{
+    text-align: center;
+}
 #rock{
     width: 200px;
     height: 200px;
